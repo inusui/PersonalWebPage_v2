@@ -30,6 +30,9 @@
 		<meta name="msapplication-TileColor" content="#ffffff">
 		<meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
 		<meta name="theme-color" content="#ffffff".>
+		<script>
+
+		</script>
 	</head>
 	<body class="is-preload">
 
@@ -89,10 +92,35 @@
 									<p>Desde pequeño he tenido gran interés por las computadoras y la tecnología. 
 										Empecé a programar desde el 2018 cuando inicié mi carrera en la Universidad Tecnológica de Panamá con la carrera Licenciatura en Desarrollo de Software. 
 										<br>Desde entonces, he aprendido a programar páginas web usando PhP y JavaScript. 
-										<br>Además, tengo conocimientos en el desarrollo de Apps Móviles con Android, Ciber Seguridad, Python y actualmente me estoy formando con CCNA Routing & Switching de Cisco.</p>
+										<br>Además, tengo conocimientos en el desarrollo de Apps Móviles con Android, Ciber Seguridad, Python y actualmente me estoy formando con CCNA Routing & Switching de Cisco.
+									</p>
+									<button onclick="showDiv()">Mostrar Certificados</button>
+
+										<div id="certificados">
+										<iframe src="https://cdn.flipsnack.com/widget/v2/widget.html?hash=f7tmq9jt4" width="100%" height="480" seamless="seamless" scrolling="no" frameBorder="0" allowFullScreen></iframe>
+										</div>
+										
+										<script>
+											var x = document.getElementById("certificados");
+											 x.style.display = "none";
+											 
+											 function showDiv() {
+												if (x.style.display === "none") {
+													x.style.display = "block";
+												} else {
+													x.style.display = "none";
+												}
+												}
+										</script>
+									<div>
+										<br>
+										<img src="images/PikaRunning.gif" height="50"><h3>En proceso</h3>
+									</div>
 									
-									
+								
+								<!--
 									<div class="row">
+										
 										<div class="col-6 col-12-medium">
 												<ul class="icons">
 													<li><a href="#" class="icon brands fa-raspberry-pi">
@@ -105,7 +133,7 @@
 													
 												</ul>
 										</div>
-
+										
 										<div class="col-6 col-12-medium">
 											<ul class="icons">
 												<li>
@@ -120,18 +148,21 @@
 													<a href="" class="icon brands" ><img src="images/icons/Firebase.png" height="25" width="20"> FireBase</a> 
 													<p>El Servicio que uso de Hosting es FireBase de Google.</p>
 												</li>
-												<li><img src="images/icons/SQL.png"> Tengo Conocimientos en SQL, he implementado bases de datos con PhP en mis sitios Web.</li>
+												<li><img src="images/icons/sql.png"> Tengo Conocimientos en SQL, he implementado bases de datos con PhP en mis sitios Web.</li>
 											</ul>
 																						
 										</div>
+										
 									</div>
+								-->
+								
 								</section>
 
 							</div>
 						</div>
 						
 
-						<!-- One -->
+						<!-- Blog Personal -->
 
 							<section id="one" class="wrapper spotlight style1">
 								<div class="inner">
@@ -150,7 +181,7 @@
 								</div>
 							</section>
 
-						<!-- Two -->
+						<!-- WebAlbion -->
 							<section id="two" class="wrapper alt spotlight style2">
 								<div class="inner">
 									<a href="https://aoinusui.web.app/" target="_blank" class="image"><img src="images/AlbionOnline.png" alt="" /></a>
@@ -160,7 +191,7 @@
 
 											<br>Guías para jugadores nuevos y veteranos. <br> 
 											
-											Guía de Dungeons Avalonianas, Guías Player vs Player, Guías Player vs Entorno (PvE)  </p>
+											Guía de Dungeons Avalonianas, Guías Jugador vs Jugador, Guías Jugador vs Entorno (PvE)  </p>
 										<a href="https://aoinusui.web.app/" target="_blank" class="special">Visitar</a>
 									</div>
 								</div>								
@@ -180,20 +211,26 @@
 							</section>
 							-->
 							
-						<!-- Four -->
+						<!-- Blog Full -->
 							<section id="blog" class="wrapper alt style1">
 								<div class="inner">
 									<h2 class="major">Blog Personal📚</h2>
 									<p>Aquí publico mis proyectos personales y guías. <br> 
 										En su mayoría de Tecnología, Windows, Raspberry Pi, entre otros intereses .  </p>
-									<!-- 
+									 
 									<section class="features">
 										<article>
-											<a href="#" class="image"><img src="images/pic04.jpg" alt="" /></a>
-											<h3 class="major">Sed feugiat lorem</h3>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>
-											<a href="#" class="special">Learn more</a>
+											<a href="androidEnRaspberryPi.html" class="image"><img src="images/blog/Android en Raspberry pi.png" alt="" /></a>
+											<a href="androidEnRaspberryPi.html" class="icon brands fa-raspberry-pi">
+												<h3 class="major"> Intalar Android en Raspberry pi</h3> 
+											</a>
+											<p>Instala Android en tu Raspberry pi.</p>
+											<a href="androidEnRaspberryPi.html" target="_blank" class="special"><img src="images/PikaRunning.gif" height="50">En proceso</a>
+											
+											
 										</article>
+										
+										<!-- 
 										<article>
 											<a href="#" class="image"><img src="images/pic05.jpg" alt="" /></a>
 											<h3 class="major">Nisl placerat</h3>
@@ -212,12 +249,15 @@
 											<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>
 											<a href="#" class="special">Learn more</a>
 										</article>
+										-->
 									</section>
+<!--
 									<ul class="actions">
 										<li><a href="#" class="button">Browse All</a></li>
 									</ul>
+-->
 								</div>
-							</section>-->
+							</section>
 
 					</section>
 
