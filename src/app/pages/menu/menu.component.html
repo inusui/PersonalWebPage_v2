@@ -1,1 +1,10 @@
-<p>menu works!</p>
+<p-toolbar>
+    <div class="p-toolbar-group-left">
+        <a href="index.html" style="font-size: 200%;"> Ricardo <span style="font-family:monospace; font-size: 90%;">Inusui</span></a>
+        
+    </div>
+    <div class="p-toolbar-group-right">
+        <button #btn type="button" pButton icon="pi pi-bars" label="Show" (click)="menu.toggle($event)" ></button>
+        <p-slideMenu #menu [model]="menuLeft" [popup]="true" [viewportHeight]="140"></p-slideMenu>
+    </div>
+</p-toolbar>
