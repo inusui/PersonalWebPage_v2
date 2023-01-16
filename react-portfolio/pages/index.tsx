@@ -13,8 +13,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        
-
+        <section className=' bg-indigo-900 min-h-screen' >
+          <h1>si, Otra version de mi portafolio xd </h1>
+        </section>
       </main>
 
 
