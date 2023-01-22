@@ -1,6 +1,7 @@
-import Head from 'next/head'
-import { Roboto_Mono } from '@next/font/google'
-import { BsFillMoonStarsFill } from 'react-icons/bs'
+import Head from 'next/head';
+import { Roboto_Mono } from '@next/font/google';
+import { BsFillMoonStarsFill, BsReddit } from 'react-icons/bs';
+import {AiFillTwitterCircle, AiFillLinkedin, AiFillGithub} from 'react-icons/ai';
 
 const inter = Roboto_Mono({ subsets: ['latin'] })
 
@@ -13,7 +14,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className='bg-slate-600 px-10'>
+      <main className='bg-white-600 px-10'>
         <section className='min-h-screen' >
           <nav className='py-10 mb-12 flex justify-between'>
             <h1 className='text-xl font-Burtons ' >Inusui</h1>
@@ -26,17 +27,23 @@ export default function Home() {
             </ul>
             quede en 22:30
           </nav>
-          <div>
-            <h2>Ricardo</h2>
-            <h3>Developer</h3>
+          <div className="text-center p-10">
+            <h2 className="text-4xl py-2 text-teal-600 font-medium" >Ricardo</h2>
+            <h3 className="text-2xl py-2">Developer</h3>
             <hr />
-            <p>
-              Desde pequeño he tenido gran interés por las computadoras y la tecnología. Empecé a programar desde el 2018 cuando inicié mi carrera en la Universidad Tecnológica de Panamá con la carrera Licenciatura en Desarrollo de Software.<br />
-              <br /> Desde entonces, he aprendido a programar páginas web usando PhP y JavaScript usando frameworks como ejs, angular, react. <br />
-              <br />Del lado del backend, manejo Java, Python
-              Además, tengo conocimientos en el desarrollo de Apps Móviles con Android, Ciber Seguridad, Python y actualmente me estoy formando con CCNA Routing & Switching de Cisco.
+            <p className="text-md py-5 leading-8 text-gray-800">
+              Frontend: PhP, JavaScript usando frameworks como ejs, angular, react. <br />
+              Backend: Java, Python
+              Desarrollo de Apps Móviles con Kotlin, Ciber Seguridad, Python.
             </p>
           </div>
+            <div className="text-5xl flex justify-center gap-10 py-3 text-gray-600">
+                <AiFillTwitterCircle/>
+                <AiFillLinkedin/>
+                <AiFillGithub/>
+                <BsReddit/>
+            </div>
+            <div></div>
         </section>
       </main>
 
