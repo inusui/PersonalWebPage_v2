@@ -1,15 +1,21 @@
 import { Component, OnInit } from '@angular/core';
 import { TabMenuModule } from 'primeng/tabmenu';
 import { MenuItem } from 'primeng/api';
+import { AvatarModule } from 'primeng/avatar';
+import { ChipModule } from 'primeng/chip';
+import { privateData } from '../../common/constans';
+
+
 
 @Component({
   selector: 'app-banner',
   standalone: true,
-  imports: [TabMenuModule],
+  imports: [TabMenuModule, ChipModule, AvatarModule],
   templateUrl: './banner.component.html',
 })
 export class BannerComponent implements OnInit {
   items: MenuItem[] | undefined;
+  privateData = privateData;
 
   ngOnInit() {
     this.items = [

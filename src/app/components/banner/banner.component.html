@@ -1,8 +1,10 @@
 <div>
-    <a href="index.html" class="image"><img src="images/MyPic.png" alt="" /></a>
-    <h2>Ricardo Domínguez</h2>
-    <h3>Inusui</h3>
-
+    <p-chip>
+        <p-avatar image="images/MyPic.png" size="xlarge" />
+        <span class="ml-2 font-medium">
+            {{privateData.name}} <br> {{privateData.alias}}
+        </span>
+    </p-chip>
     <p-tabMenu [model]="items" />
 
 
