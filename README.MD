@@ -8,7 +8,8 @@
 
 ### Solo lo he usado aqui
 
-[FileSet](https://primeng.org/fieldset) y lo ando usando en [app.component](src/app/app.component.ts)
+[FileSet](https://primeng.org/fieldset) uso en [app.component](src/app/app.component.ts)
+[TabMenu](https://primeng.org/tabmenu) uso en [banner](src/app/components/banner/banner.component.ts)
 
 ### Archivo Comun (lo he usado en mas de un sitio)
 
