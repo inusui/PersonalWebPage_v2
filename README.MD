@@ -2,7 +2,8 @@
 
 ## Estoy usando
 
-* primeng
+- Primeng 17.18.1 [Intalación](https://primeng.org/installation)
+- bootstrap: 5.3.3 [Instalación](https://ng-bootstrap.github.io/#/getting-started#installation) y se añadio el import en [app.component.scss](src\app\app.component.scss) con el fin de usar el tema de primeNG
 
 ### Componentes de PrimeNg en uso
 
