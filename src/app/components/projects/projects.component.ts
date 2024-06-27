@@ -1,12 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 import { CarouselModule } from 'primeng/carousel';
-import { ButtonModule } from 'primeng/button';
 import { DataService } from '../../services/data-service.service';
+import { PrimeNgModule } from '../../common/PrimeNgModule';
 
 @Component({
   selector: 'app-projects',
   standalone: true,
-  imports: [CarouselModule, ButtonModule],
+  imports: [CarouselModule, PrimeNgModule],
   templateUrl: './projects.component.html',
   styleUrl: './projects.component.scss',
 })
