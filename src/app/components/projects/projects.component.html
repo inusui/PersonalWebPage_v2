@@ -1,33 +1,40 @@
 <div class="card">
-    <p-carousel [value]="products" [numVisible]="1" [numScroll]="3" [circular]="true"
-        [responsiveOptions]="responsiveOptions">
-        <ng-template let-product pTemplate="item">
-            <div class="border-1 surface-border border-round m-2 p-3">
-                <div class="mb-3">
-                    <div class="relative mx-auto">
-                        <img src="{{product.img}}" [alt]="product.name" class="w-full border-round" />
-                    </div>
-                    <a href="{{product.url}}" target="_blank" class="mt-1">
-                        <p-button icon="pi pi-external-link" styleClass="ml-2" label="{{product.name}}" /> </a>
-                </div>
-                <div class="">
-                </div>
-            </div>
-        </ng-template>
-    </p-carousel>
-</div>
-
-<div>
-    <a href="https://aoinusui.web.app/" target="_blank" class="image"><img src="images/AlbionOnline.png" alt="" /></a>
-    <div class="content">
-        <h2 class="major">🌐Sitio Web dedicado a Albion Online</h2>
-        <p>Al ser un jugador desde 2019 considero que tengo algo de experiencia y me gusta brindar ayuda a
-            todos los jugadores sin distinción de gremio o alianza a la cual pertenecen. <br>
-
-            <br>Guías para jugadores nuevos y veteranos. <br>
-
-            Guía de Dungeons Avalonianas, Guías Jugador vs Jugador, Guías Jugador vs Entorno (PvE)
-        </p>
-        <a href="https://aoinusui.web.app/" target="_blank" class="special">Visitar</a>
-    </div>
+  <p-carousel
+    [value]="products"
+    [numVisible]="2"
+    [numScroll]="1"
+    [circular]="true"
+    [responsiveOptions]="responsiveOptions"
+  >
+    <ng-template let-product pTemplate="item">
+      <div class="spaces border-1 surface-border border-round m-2 p-3">
+        <div class="mb-1rem">
+          <div class="relative mx-auto">
+            <img
+              src="{{ product.img }}"
+              [alt]="product.name"
+              class="w-full border-round"
+            />
+          </div>
+        </div>
+        <h3 class="mb-1rem">{{ product.name }}</h3>
+        <div class="flex justify-content-between align-items-center">
+          <div class="mb-1rem text-just font-semibold text-xl">
+            {{ product.description }}
+          </div>
+          <span class="mb-1rem">
+            <p-button
+              icon="pi {{ product.icon }}"
+              styleClass="ml-2"
+              label="{{ product.buttonText }}"
+              [disabled]="product.disable"
+              [rounded]="true"
+            >
+              <a href="{{ product.url }}" target="_blank"> </a>
+            </p-button>
+          </span>
+        </div>
+      </div>
+    </ng-template>
+  </p-carousel>
 </div>
