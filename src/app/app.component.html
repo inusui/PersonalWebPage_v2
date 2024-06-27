@@ -2,191 +2,99 @@
     <app-menu></app-menu>
     <app-banner></app-banner>
     <!-- Por modificar -->
-    <section id="wrapper">
-        <!-- Skills -->
-        <div class="wrapper">
-            <div class="inner">
-                <section>
-                    <h2 class="major">Acerca de mi</h2>
-                    <p>Desde pequeño he tenido gran interés por las computadoras y la tecnología.
-                        Empecé a programar desde el 2018 cuando inicié mi carrera en la Universidad Tecnológica de
-                        Panamá con la carrera Licenciatura en Desarrollo de Software.
-                        <br>Desde entonces, he aprendido a programar páginas web usando PhP y JavaScript.
-                        <br>Además, tengo conocimientos en el desarrollo de Apps Móviles con Android, Ciber Seguridad,
-                        Python y actualmente me estoy formando con CCNA Routing & Switching de Cisco.
-                    </p>
+    <div id="card flex justify-content-center mx-lg-5">
+        <h2>Acerca de mi</h2>
+        <p>Desde pequeño he tenido gran interés por las computadoras y la tecnología.
+            Empecé a programar desde el 2018 cuando inicié mi carrera en la Universidad Tecnológica de
+            Panamá con la carrera Licenciatura en Desarrollo de Software.
+            <br>Desde entonces, he aprendido a programar páginas web usando PhP y JavaScript.
+            <br>Además, tengo conocimientos en el desarrollo de Apps Móviles con Android, Ciber Seguridad,
+            Python y actualmente me estoy formando con CCNA Routing & Switching de Cisco.
+        </p>
 
-                    <div class="card flex justify-content-center">
-                        <p-fieldset legend="Mostrar Certificados" [toggleable]="true">
-                            <iframe src="https://cdn.flipsnack.com/widget/v2/widget.html?hash=f7tmq9jt4" width="100%"
-                                height="480" seamless="seamless" scrolling="no" frameBorder="0"
-                                allowFullScreen></iframe>
-                        </p-fieldset>
-                    </div>
+        <p-fieldset legend="Mostrar Certificados" [toggleable]="true" collapsed="true">
+            <iframe src="https://cdn.flipsnack.com/widget/v2/widget.html?hash=f7tmq9jt4" width="100%" height="480"
+                seamless="seamless" scrolling="no" frameBorder="0" allowFullScreen></iframe>
+        </p-fieldset>
 
-                    <div>
-                        <br>
-                        <img src="images/PikaRunning.gif" height="50">
-                        <h3>En proceso</h3>
-                    </div>
+    </div>
 
-                    <div class="row">
 
-                        <div class="col-6 col-12-medium">
-                            <ul class="icons">
-                                <li><a href="#" class="icon brands fa-raspberry-pi">
-                                    </a></li>
+    <h2 class="my-4">Proyectos</h2>
+    <div class="mt-1">
+        <app-projects></app-projects>
+    </div>
 
-                                <li>
-                                    <h6>Raspberry Pi </h6>
-                                </li>
-                                <br>
-                                Tengo un Raspberry Pi 3 b+ con el que hago proyectos pequeños.
-                                <p><br>Este lo he usado como un servidor web en el cual puedo acceder desde Internet. 
-                                </p>
 
-                            </ul>
-                        </div>
+    <!-- Blog Full -->
+    <section id="blog" class="wrapper alt style1">
+        <div class="inner">
+            <h2 class="major">Ultimas Publicaciones📚</h2>
+            <p>Aquí publico mis proyectos personales y guías. <br>
+                En su mayoría de Tecnología, Windows, Raspberry Pi, entre otros intereses . </p>
 
-                        <div class="col-6 col-12-medium">
-                            <ul class="icons">
-                                <li>
+            <section class="features">
 
-                                    <a href="" class="icon brands fa-php"></a>
-                                    <a href="" class="icon brands fa-html5"></a>
-                                </li>
-                                <li>
-                                    <h6>Desarrollo Web</h6>
-                                </li>
-                            </ul>
-                            <ul class="alt">
-                                <li>
-                                    <a href="" class="icon brands"><img src="images/icons/Firebase.png" height="25"
-                                            width="20"> FireBase</a>
-                                    <p>El Servicio que uso de Hosting es FireBase de Google.</p>
-                                </li>
-                                <li><img src="images/icons/sql.png"> Tengo Conocimientos en SQL, he implementado bases
-                                    de datos con PhP en mis sitios Web.</li>
-                            </ul>
+                <article>
+                    <iframe id="reddit-embed"
+                        src="https://www.redditmedia.com/user/inusui/comments/s9vbtp/html_javascript_boton_para_mostrarocultar_div/?ref_source=embed&amp;ref=share&amp;embed=true&amp;showedits=false&amp;created=2022-02-06T21%3A38%3A38.787Z"
+                        sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" scrolling="no"
+                        width="100%" height="75%">
+                    </iframe>
 
-                        </div>
+                    <a class="special"
+                        href="https://www.reddit.com/user/inusui/comments/s9vbtp/html_javascript_boton_para_mostrarocultar_div/"
+                        target="_blank">
+                        Ver Más
+                    </a>
+                </article>
 
-                    </div>
+                <article>
+                    <iframe id="reddit-embed"
+                        src="https://www.redditmedia.com/user/inusui/comments/rv7hqe/contrase%C3%B1as_aleatorias_en_menos_de_30_segundos/?ref_source=embed&amp;ref=share&amp;embed=true&amp;showedits=false&amp;created=2022-02-06T21%3A59%3A00.591Z"
+                        sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" scrolling="no"
+                        width="100%" height="75%">
+                    </iframe>
 
-                </section>
+                    <a class="special"
+                        href="https://www.reddit.com/user/inusui/comments/s9vbtp/html_javascript_boton_para_mostrarocultar_div/"
+                        target="_blank">
+                        Ver Más
+                    </a>
+                </article>
 
-            </div>
+                <article>
+                    <iframe id="reddit-embed"
+                        src="https://www.redditmedia.com/user/inusui/comments/s74djj/apaga_tu_pc_en_x_tiempo/?ref_source=embed&amp;ref=share&amp;embed=true"
+                        sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" scrolling="no"
+                        width="100%" height="75%">
+                    </iframe>
+
+                    <a class="special"
+                        href="https://www.reddit.com/user/inusui/comments/s9vbtp/html_javascript_boton_para_mostrarocultar_div/"
+                        target="_blank">
+                        Ver Más
+                    </a>
+                </article>
+
+                <article>
+                    <a href="#" class="image"><img src="images/pic06.jpg" alt="" /></a>
+                    <h3 class="major">Ante fermentum</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus
+                        ultrices.</p>
+                    <a href="#" class="special">Learn more</a>
+                </article>
+                <article>
+                    <a href="#" class="image"><img src="images/pic07.jpg" alt="" /></a>
+                    <h3 class="major">Fusce consequat</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus
+                        ultrices.</p>
+                    <a href="#" class="special">Learn more</a>
+                </article>
+            </section>
+
         </div>
-
-
-        <!-- Blog Personal -->
-
-        <section id="one" class="wrapper spotlight style1">
-            <div class="inner">
-                <a href="#blog" class="image"><img src="images/inusui.jpeg" alt="" /></a>
-                <div class="content">
-                    <h2 class="major">Blog Personal📚</h2>
-
-                    <p>Apartado donde publico mis trabajos, experiencias y tutoriales de mis temas de interés. <br>
-                        Por lo regular publico temas de Rapsberry pi, Tecnología, Seguridad Informática, animales
-                        domésticos, jardinería, entre otros intereses.
-                    </p>
-
-                    <a href="#blog" class="special">Learn more</a>
-
-                </div>
-            </div>
-        </section>
-
-        <!-- WebAlbion -->
-        <section id="two" class="wrapper alt spotlight style2">
-            <div class="inner">
-                <a href="https://aoinusui.web.app/" target="_blank" class="image"><img src="images/AlbionOnline.png"
-                        alt="" /></a>
-                <div class="content">
-                    <h2 class="major">🌐Sitio Web dedicado a Albion Online</h2>
-                    <p>Al ser un jugador desde 2019 considero que tengo algo de experiencia y me gusta brindar ayuda a
-                        todos los jugadores sin distinción de gremio o alianza a la cual pertenecen. <br>
-
-                        <br>Guías para jugadores nuevos y veteranos. <br>
-
-                        Guía de Dungeons Avalonianas, Guías Jugador vs Jugador, Guías Jugador vs Entorno (PvE)
-                    </p>
-                    <a href="https://aoinusui.web.app/" target="_blank" class="special">Visitar</a>
-                </div>
-            </div>
-        </section>
-
-        <!-- Blog Full -->
-        <section id="blog" class="wrapper alt style1">
-            <div class="inner">
-                <h2 class="major">Ultimas Publicaciones📚</h2>
-                <p>Aquí publico mis proyectos personales y guías. <br>
-                    En su mayoría de Tecnología, Windows, Raspberry Pi, entre otros intereses . </p>
-
-                <section class="features">
-
-                    <article>
-                        <iframe id="reddit-embed"
-                            src="https://www.redditmedia.com/user/inusui/comments/s9vbtp/html_javascript_boton_para_mostrarocultar_div/?ref_source=embed&amp;ref=share&amp;embed=true&amp;showedits=false&amp;created=2022-02-06T21%3A38%3A38.787Z"
-                            sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" scrolling="no"
-                            width="100%" height="75%">
-                        </iframe>
-
-                        <a class="special"
-                            href="https://www.reddit.com/user/inusui/comments/s9vbtp/html_javascript_boton_para_mostrarocultar_div/"
-                            target="_blank">
-                            Ver Más
-                        </a>
-                    </article>
-
-                    <article>
-                        <iframe id="reddit-embed"
-                            src="https://www.redditmedia.com/user/inusui/comments/rv7hqe/contrase%C3%B1as_aleatorias_en_menos_de_30_segundos/?ref_source=embed&amp;ref=share&amp;embed=true&amp;showedits=false&amp;created=2022-02-06T21%3A59%3A00.591Z"
-                            sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" scrolling="no"
-                            width="100%" height="75%">
-                        </iframe>
-
-                        <a class="special"
-                            href="https://www.reddit.com/user/inusui/comments/s9vbtp/html_javascript_boton_para_mostrarocultar_div/"
-                            target="_blank">
-                            Ver Más
-                        </a>
-                    </article>
-
-                    <article>
-                        <iframe id="reddit-embed"
-                            src="https://www.redditmedia.com/user/inusui/comments/s74djj/apaga_tu_pc_en_x_tiempo/?ref_source=embed&amp;ref=share&amp;embed=true"
-                            sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" scrolling="no"
-                            width="100%" height="75%">
-                        </iframe>
-
-                        <a class="special"
-                            href="https://www.reddit.com/user/inusui/comments/s9vbtp/html_javascript_boton_para_mostrarocultar_div/"
-                            target="_blank">
-                            Ver Más
-                        </a>
-                    </article>
-
-                    <article>
-                        <a href="#" class="image"><img src="images/pic06.jpg" alt="" /></a>
-                        <h3 class="major">Ante fermentum</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus
-                            ultrices.</p>
-                        <a href="#" class="special">Learn more</a>
-                    </article>
-                    <article>
-                        <a href="#" class="image"><img src="images/pic07.jpg" alt="" /></a>
-                        <h3 class="major">Fusce consequat</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus
-                            ultrices.</p>
-                        <a href="#" class="special">Learn more</a>
-                    </article>
-                </section>
-
-            </div>
-        </section>
-
     </section>
+
 
 </div>
