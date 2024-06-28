@@ -1,100 +1,65 @@
 <div class="container">
-    <app-menu></app-menu>
-    <app-banner></app-banner>
-    <!-- Por modificar -->
-    <div id="card flex justify-content-center mx-lg-5">
-        <h2>Acerca de mi</h2>
-        <p>Desde pequeño he tenido gran interés por las computadoras y la tecnología.
-            Empecé a programar desde el 2018 cuando inicié mi carrera en la Universidad Tecnológica de
-            Panamá con la carrera Licenciatura en Desarrollo de Software.
-            <br>Desde entonces, he aprendido a programar páginas web usando PhP y JavaScript.
-            <br>Además, tengo conocimientos en el desarrollo de Apps Móviles con Android, Ciber Seguridad,
-            Python y actualmente me estoy formando con CCNA Routing & Switching de Cisco.
-        </p>
+  <app-menu></app-menu>
+  <app-banner></app-banner>
+  <!-- Por modificar -->
+  <div id="card flex justify-content-center mx-lg-5">
+    <h2>Acerca de mi</h2>
+    <p>
+      Desde pequeño he tenido gran interés por las computadoras y la tecnología.
+      Empecé a programar desde el 2018 cuando inicié mi carrera en la
+      Universidad Tecnológica de Panamá con la carrera Licenciatura en
+      Desarrollo de Software. <br />Desde entonces, he aprendido a programar
+      páginas web usando PhP y JavaScript. <br />Además, tengo conocimientos en
+      el desarrollo de Apps Móviles con Android, Ciber Seguridad, Python y
+      actualmente me estoy formando con CCNA Routing & Switching de Cisco.
+    </p>
 
-        <p-fieldset legend="Mostrar Certificados" [toggleable]="true" collapsed="true">
-            <iframe src="https://cdn.flipsnack.com/widget/v2/widget.html?hash=f7tmq9jt4" width="100%" height="480"
-                seamless="seamless" scrolling="no" frameBorder="0" allowFullScreen></iframe>
-        </p-fieldset>
+    <p-fieldset
+      legend="Mostrar Certificados"
+      [toggleable]="true"
+      collapsed="true"
+    >
+      <iframe
+        src="https://cdn.flipsnack.com/widget/v2/widget.html?hash=f7tmq9jt4"
+        width="100%"
+        height="480"
+        seamless="seamless"
+        scrolling="no"
+        frameBorder="0"
+        allowFullScreen
+      ></iframe>
+    </p-fieldset>
+  </div>
 
-    </div>
+  <h2 class="my-4">Proyectos</h2>
+  <div class="mt-1">
+    <app-projects></app-projects>
+  </div>
 
+  <!-- Blog Full -->
+  <h2 class="major">Ultimas Publicaciones📚</h2>
+  <p>
+    Aquí publico mis proyectos personales y guías. <br />
+    En su mayoría de Tecnología, Windows, Raspberry Pi, entre otros intereses .
+  </p>
 
-    <h2 class="my-4">Proyectos</h2>
-    <div class="mt-1">
-        <app-projects></app-projects>
-    </div>
+  <app-last-publications></app-last-publications>
 
-
-    <!-- Blog Full -->
-    <section id="blog" class="wrapper alt style1">
-        <div class="inner">
-            <h2 class="major">Ultimas Publicaciones📚</h2>
-            <p>Aquí publico mis proyectos personales y guías. <br>
-                En su mayoría de Tecnología, Windows, Raspberry Pi, entre otros intereses . </p>
-
-            <section class="features">
-
-                <article>
-                    <iframe id="reddit-embed"
-                        src="https://www.redditmedia.com/user/inusui/comments/s9vbtp/html_javascript_boton_para_mostrarocultar_div/?ref_source=embed&amp;ref=share&amp;embed=true&amp;showedits=false&amp;created=2022-02-06T21%3A38%3A38.787Z"
-                        sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" scrolling="no"
-                        width="100%" height="75%">
-                    </iframe>
-
-                    <a class="special"
-                        href="https://www.reddit.com/user/inusui/comments/s9vbtp/html_javascript_boton_para_mostrarocultar_div/"
-                        target="_blank">
-                        Ver Más
-                    </a>
-                </article>
-
-                <article>
-                    <iframe id="reddit-embed"
-                        src="https://www.redditmedia.com/user/inusui/comments/rv7hqe/contrase%C3%B1as_aleatorias_en_menos_de_30_segundos/?ref_source=embed&amp;ref=share&amp;embed=true&amp;showedits=false&amp;created=2022-02-06T21%3A59%3A00.591Z"
-                        sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" scrolling="no"
-                        width="100%" height="75%">
-                    </iframe>
-
-                    <a class="special"
-                        href="https://www.reddit.com/user/inusui/comments/s9vbtp/html_javascript_boton_para_mostrarocultar_div/"
-                        target="_blank">
-                        Ver Más
-                    </a>
-                </article>
-
-                <article>
-                    <iframe id="reddit-embed"
-                        src="https://www.redditmedia.com/user/inusui/comments/s74djj/apaga_tu_pc_en_x_tiempo/?ref_source=embed&amp;ref=share&amp;embed=true"
-                        sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" scrolling="no"
-                        width="100%" height="75%">
-                    </iframe>
-
-                    <a class="special"
-                        href="https://www.reddit.com/user/inusui/comments/s9vbtp/html_javascript_boton_para_mostrarocultar_div/"
-                        target="_blank">
-                        Ver Más
-                    </a>
-                </article>
-
-                <article>
-                    <a href="#" class="image"><img src="images/pic06.jpg" alt="" /></a>
-                    <h3 class="major">Ante fermentum</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus
-                        ultrices.</p>
-                    <a href="#" class="special">Learn more</a>
-                </article>
-                <article>
-                    <a href="#" class="image"><img src="images/pic07.jpg" alt="" /></a>
-                    <h3 class="major">Fusce consequat</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus
-                        ultrices.</p>
-                    <a href="#" class="special">Learn more</a>
-                </article>
-            </section>
-
-        </div>
-    </section>
-
-
+  <!-- Codigo muerto que no puedo quitar-->
+  <div style="position: absolute; top: -2000px">
+    <blockquote
+      class="reddit-embed-bq hidden"
+      data-embed-theme="dark"
+      data-embed-height="0"
+    >
+      <a
+        href="https://www.reddit.com/user/inusui/comments/rv7hqe/contraseñas_aleatorias_en_menos_de_30_segundos/"
+        >Contraseñas aleatorias en menos de 30 segundos con python.</a
+      ><br />
+      by<a href="https://www.reddit.com/user/inusui/">u/inusui</a> in<a
+        href="https://www.reddit.com/user/inusui/"
+        >u_inusui</a
+      >
+    </blockquote>
+  </div>
 </div>
