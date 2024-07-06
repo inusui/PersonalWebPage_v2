@@ -5,8 +5,6 @@ import { AvatarModule } from 'primeng/avatar';
 import { ChipModule } from 'primeng/chip';
 import { privateData } from '../../common/constans';
 
-
-
 @Component({
   selector: 'app-banner',
   standalone: true,
@@ -18,10 +16,13 @@ export class BannerComponent implements OnInit {
   privateData = privateData;
 
   ngOnInit() {
+   
     this.items = [
       { url: 'https://github.com/inusui', icon: 'pi pi-github' },
+      { url: 'https://g.dev/inusui', icon: 'pi pi-google', image: 'assets/google-dev.svg' },
       { url: 'https://twitter.com/InuSui', icon: 'pi pi-twitter' },
       { url: 'https://linkedin.com/in/inusui', icon: 'pi pi-linkedin' },
     ];
+    //{ url: 'https://g.dev/inusui', icon: '' },
   }
 }

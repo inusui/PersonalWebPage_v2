@@ -1,12 +1,22 @@
 <div>
-    <p-chip>
-        <p-avatar image="images/MyPic.png" size="xlarge" />
-        <span class="ml-2 font-medium">
-            {{privateData.name}} <br> {{privateData.alias}}
-        </span>
-    </p-chip>
-    <img src="images/PikaRunning.gif" height="50">
-    <p-tabMenu [model]="items" />
+  <p-chip>
+    <p-avatar image="images/MyPic.png" size="xlarge" />
+    <span class="ml-2 font-medium">
+      {{ privateData.name }} <br />
+      {{ privateData.alias }}
+    </span>
+  </p-chip>
+  <img src="images/PikaRunning.gif" height="50" />
 
-
+  <p-tabMenu [model]="items">
+    <ng-template pTemplate="item" let-item>
+        <a pRipple class="flex align-items-center gap-2 p-menuitem-link" href="{{item.url}}" target="_blank">
+            <img 
+                [class]="item.icon"
+                [alt]="" 
+                [src]="item.image" 
+                style="width: 2rem" />
+        </a>
+    </ng-template>
+</p-tabMenu>
 </div>
