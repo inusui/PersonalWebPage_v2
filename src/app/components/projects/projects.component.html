@@ -8,10 +8,8 @@
     <br />
     <span *ngFor="let tech of item.technologies">
       <p-chip [style]="{'height': '1rem',
-        'padding': '0.045rem',
-        'padding-right': '0.2rem',
         'font-size': '0.8rem',
-        'margin-left': '0.5rem'
+        'width': '80%',
     }" label="{{tech.name}}" icon="{{tech.icon}}" />
     </span>
     <p-chip
