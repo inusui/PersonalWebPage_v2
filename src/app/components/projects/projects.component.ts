@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { DataService } from '../../services/data-service.service';
 import { PrimeNgModule } from '../../common/PrimeNgModule';
 import { RouterModule } from '@angular/router';
+import { IProject } from '../../common/interfaces/IProject';
 
 @Component({
   selector: 'app-projects',
@@ -11,16 +12,17 @@ import { RouterModule } from '@angular/router';
   styleUrl: './projects.component.scss',
 })
 export class ProjectsComponent implements OnInit {
-  products: any;
-  responsiveOptions: any;
+  products: IProject[] = [];
 
   constructor(private dataService: DataService) {}
   ngOnInit(): void {
+    
     this.dataService.getProjects().subscribe((data) => {
       this.products = data;
     });
-    this.dataService.getResponsiveOptions().subscribe((data) => {
-      this.responsiveOptions = data;
-    });
+  }
+
+  goTo(url :string){
+    window.open(url, '_blank');  
   }
 }

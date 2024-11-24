@@ -1,40 +1,14 @@
-<div class="card">
-  <p-carousel
-    [value]="products"
-    [numVisible]="2"
-    [numScroll]="1"
-    [circular]="true"
-    [responsiveOptions]="responsiveOptions"
-  >
-    <ng-template let-product pTemplate="item">
-      <div class="spaces border-1 surface-border border-round m-2 p-3">
-        <div class="mb-1rem">
-          <div class="relative mx-auto">
-            <img
-              src="{{ product.img }}"
-              [alt]="product.name"
-              class="w-full border-round"
-            />
-          </div>
-        </div>
-        <h3 class="mb-1rem">{{ product.name }}</h3>
-        <div class="flex justify-content-between align-items-center">
-          <div class="mb-1rem text-just font-semibold text-xl">
-            {{ product.description }}
-          </div>
-          <span class="mb-1rem">
-            <p-button
-              icon="pi {{ product.icon }}"
-              styleClass="ml-2"
-              label="{{ product.buttonText }}"
-              [disabled]="product.disable"
-              [rounded]="true"
-            >
-              <a href="{{ product.url }}" target="_blank"> </a>
-            </p-button>
-          </span>
-        </div>
-      </div>
-    </ng-template>
-  </p-carousel>
+<div class="p-5 card" *ngFor="let item of products">
+  <p-card header="{{item.name}}" (click)="goTo(item.url)" [style]="{'cursor': 'pointer'}">
+    <p>
+      {{ item.description }}
+    </p>
+    <img src="{{ item.img }}" alt="albion online" style="width: 90%">
+    <br/>
+    <span *ngFor="let tech of item.technologies">
+    <p-chip [style]="{'height': '1rem',
+      'padding': '0.045rem',
+    }" label="{{tech.name}}" icon="{{tech.icon}}" />
+    </span>
+  </p-card>
 </div>

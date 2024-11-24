@@ -1,12 +1,13 @@
-.spaces {
-    margin: 20px;
-    text-align: center;
+.p-5 {
+  padding: 5px;
 }
 
-.mb-1rem{
-    margin-bottom: 1rem;
+.card {
+  width: 30%;
+  float: left;
+  text-align: center;
 }
 
-.text-just {
-    text-align: justify;
+.card > p{
+  text-align: left;
 }
