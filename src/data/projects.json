@@ -8,8 +8,8 @@
     "icon": "pi pi-external-link",
     "buttonText": "Visitar",
     "technologies": [
-      {"name": "Angular", "icon": "pi pi-asterisk"},
-      {"name": "Firebase", "icon": "pi pi-question"}
+      {"name": "Angular", "icon": "mdi mdi-angularjs"},
+      {"name": "Firebase", "icon": "mdi mdi-firebase"}
     ]
   },
   {
