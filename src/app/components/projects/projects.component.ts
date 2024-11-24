@@ -15,14 +15,14 @@ export class ProjectsComponent implements OnInit {
   products: IProject[] = [];
 
   constructor(private dataService: DataService) {}
+
   ngOnInit(): void {
-    
     this.dataService.getProjects().subscribe((data) => {
       this.products = data;
     });
   }
 
-  goTo(url :string){
-    window.open(url, '_blank');  
+  goTo(url: string) {
+    window.open(url, '_blank');
   }
 }

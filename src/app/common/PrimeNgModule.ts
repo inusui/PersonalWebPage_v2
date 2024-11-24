@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
-import { MenuModule } from 'primeng/menu';
 import { ButtonModule } from 'primeng/button';
-import { FieldsetModule } from 'primeng/fieldset';
 import { CardModule } from 'primeng/card';
 import { CarouselModule } from 'primeng/carousel';
 import { ChipModule } from 'primeng/chip';
+import { FieldsetModule } from 'primeng/fieldset';
+import { MenuModule } from 'primeng/menu';
 
 @NgModule({
   imports: [
@@ -13,7 +13,7 @@ import { ChipModule } from 'primeng/chip';
     FieldsetModule,
     CardModule,
     CarouselModule,
-    ChipModule
+    ChipModule,
   ],
   exports: [
     MenuModule,
@@ -21,7 +21,7 @@ import { ChipModule } from 'primeng/chip';
     FieldsetModule,
     CardModule,
     CarouselModule,
-    ChipModule
+    ChipModule,
   ],
 })
 export class PrimeNgModule {}

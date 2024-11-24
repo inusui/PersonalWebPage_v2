@@ -4,9 +4,9 @@
     "url": "https://aoinusui.web.app/",
     "img": "../images/AlbionOnline.png",
     "description": "Proyecto hecho para el juego albion online enfocado a nuevos jugadores",
-    "disable": false,
     "icon": "pi pi-external-link",
-    "buttonText": "Visitar",
+    "repository": "https://github.com/inusui/AOInusui",
+    "haveRepository": true,
     "technologies": [
       {"name": "Angular", "icon": "mdi mdi-angularjs"},
       {"name": "Firebase", "icon": "mdi mdi-firebase"}
@@ -17,9 +17,7 @@
     "url": "#",
     "img": "../images/dino_coffe.gif",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt at voluptatum totam sapiente facere dignissimos repudiandae ab sed ullam quae fugit eius, corporis numquam dolores aut vitae quasi ad quis!",
-    "disable": true,
     "icon": "pi pi-spin pi-cog",
-    "buttonText": "InProgress",
     "technologies": [
       {"name": "Angular", "icon": "pi pi-question"}
     ]

@@ -3,10 +3,10 @@ export interface IProject {
     url: string;
     img: string;
     description: string;
-    disable: boolean;
     icon: string;
-    buttonText: string;
     technologies: technology[]
+    repository: string
+    haveRepository: boolean;
 }
 
 interface technology {
