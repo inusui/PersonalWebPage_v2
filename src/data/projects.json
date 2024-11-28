@@ -34,7 +34,7 @@
     "technologies": [
       {"name": "NodeJS", "icon": "mdi mdi-nodejs"},
       {"name": "CouchDB", "icon": "icon icon-couchbd"},
-      {"name": "ExpressJs", "icon": "pi pi-question"},
+      {"name": "ExpressJs", "icon": "icon icon-express"},
       {"name": "EJS", "icon": "icon icon-ejs"}
     ],
     "haveRepository": true,
