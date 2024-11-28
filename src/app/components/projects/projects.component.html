@@ -1,26 +1,26 @@
-<div class="p-5 card" *ngFor="let item of products">
-  <p-card>
-    <h2 (click)="goTo(item.url)" [style]="{'cursor': 'pointer'}">{{ item.name }}</h2>
-    <p>
-      {{ item.description }}
-    </p>
-    <img src="{{ item.img }}" alt="albion online" style="width: 95%">
-    <div style="margin-top: 10px;" ></div>
-    <div class="icons" *ngFor="let tech of item.technologies">
-      <span class="{{tech.icon}}"></span>
-      {{tech.name}}
-      <br/>
-    </div>    
+<div class="container">
+  <div class="card-container">
+    <div class="card" *ngFor="let item of products">
+      <p-card>
+        <h2 (click)="goTo(item.url)" [style]="{'cursor': 'pointer'}">{{ item.name }}</h2>
+        <p>
+          {{ item.description }}
+        </p>
+        <img src="{{ item.img }}" alt="albion online" style="width: 95%">
+        <div style="margin-top: 10px;"></div>
+        <div class="icons" *ngFor="let tech of item.technologies">
+          <span class="{{tech.icon}}"></span>
+          {{tech.name}}
+          <br />
+        </div>
 
-    <p-chip
-    *ngIf="item.haveRepository"
-    (click)="goTo(item.repository)"
-    label="Ver repositorio"
-    icon="mdi mdi-github"
-    [style]="{
-      'cursor': 'pointer',
-      'margin-top': '0.5rem'
-    }"></p-chip>
-  </p-card>
+        <p-chip *ngIf="item.haveRepository" (click)="goTo(item.repository)" label="Ver repositorio"
+          icon="mdi mdi-github" [style]="{
+          'cursor': 'pointer',
+          'margin-top': '0.5rem'
+        }"></p-chip>
+      </p-card>
 
+    </div>
+  </div>
 </div>
