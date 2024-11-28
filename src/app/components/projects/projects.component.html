@@ -5,21 +5,22 @@
       {{ item.description }}
     </p>
     <img src="{{ item.img }}" alt="albion online" style="width: 95%">
-    <br />
-    <span *ngFor="let tech of item.technologies">
-      <p-chip [style]="{'height': '1rem',
-        'font-size': '0.8rem',
-        'width': '80%',
-    }" label="{{tech.name}}" icon="{{tech.icon}}" />
-    </span>
+    <div style="margin-top: 10px;" ></div>
+    <div class="icons" *ngFor="let tech of item.technologies">
+      <span class="{{tech.icon}}"></span>
+      {{tech.name}}
+      <br/>
+    </div>    
+
     <p-chip
-      *ngIf="item.haveRepository"
-      (click)="goTo(item.repository)"
-      label="Ver repositorio"
-      icon="mdi mdi-github"
-      [style]="{
-        'cursor': 'pointer',
-        'margin-top': '0.5rem'
-        }"></p-chip>
+    *ngIf="item.haveRepository"
+    (click)="goTo(item.repository)"
+    label="Ver repositorio"
+    icon="mdi mdi-github"
+    [style]="{
+      'cursor': 'pointer',
+      'margin-top': '0.5rem'
+    }"></p-chip>
   </p-card>
+
 </div>

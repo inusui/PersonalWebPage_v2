@@ -20,3 +20,30 @@ p {
 h2:hover {
   color: #007bff;
 }
+
+.icons {
+  margin-top: 0.1rem;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 0.8rem;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.icon-couchbd {
+  height: 1rem; 
+  background-image: url("../../../assets/images/icons/couchbd.svg");
+  filter: invert(99%) sepia(9%) saturate(741%) hue-rotate(159deg) brightness(113%) contrast(97%);
+}
+
+.icon-ejs {
+  height: 1rem; 
+  background-image: url("../../../assets/images/icons/ejs.svg");
+  filter: invert(99%) sepia(9%) saturate(741%) hue-rotate(159deg) brightness(113%) contrast(97%);
+}

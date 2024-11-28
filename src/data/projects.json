@@ -2,7 +2,7 @@
   {
     "name": "Albion Online",
     "url": "https://aoinusui.web.app/",
-    "img": "../images/AlbionOnline.png",
+    "img": "../assets/images/projects/AlbionOnline.png",
     "description": "Proyecto hecho para el juego albion online enfocado a nuevos jugadores",
     "icon": "pi pi-external-link",
     "repository": "https://github.com/inusui/AOInusui",
@@ -16,13 +16,28 @@
     ]
   },
   {
-    "name": "InProgress",
-    "url": "#",
-    "img": "../images/dino_coffe.gif",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt at voluptatum totam sapiente facere dignissimos repudiandae ab sed ullam quae fugit eius, corporis numquam dolores aut vitae quasi ad quis!",
+    "name": "Mi Portafolio",
+    "url": "https://inusui.web.app/",
+    "img": "../assets/images/projects/inusui.jpeg",
+    "description": "Mi portafolio hecho con Angular",
     "icon": "pi pi-spin pi-cog",
     "technologies": [
-      {"name": "Angular", "icon": "pi pi-question"}
+      {"name": "Angular", "icon": "mdi mdi-angular"}
     ]
+  },
+  {
+    "name": "Venuzka vet",
+    "url": "",
+    "img": "../assets/images/projects/venuzka_vet.png",
+    "description": "Clinica veterinaria con base de datos en CouchDB y NodeJS. Admite Replicas a distintos servidores",
+    "icon": "",
+    "technologies": [
+      {"name": "NodeJS", "icon": "mdi mdi-nodejs"},
+      {"name": "CouchDB", "icon": "icon icon-couchbd"},
+      {"name": "ExpressJs", "icon": "pi pi-question"},
+      {"name": "EJS", "icon": "icon icon-ejs"}
+    ],
+    "haveRepository": true,
+    "repository": "https://github.com/inusui/venuzka_vet"
   }
 ]
