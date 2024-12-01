@@ -10,6 +10,7 @@ import { privateData } from '../../common/constans';
   standalone: true,
   imports: [TabMenuModule, ChipModule, AvatarModule],
   templateUrl: './banner.component.html',
+  styleUrl: './banner.component.scss'
 })
 export class BannerComponent implements OnInit {
   items: MenuItem[] | undefined;

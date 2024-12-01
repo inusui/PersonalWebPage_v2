@@ -1,0 +1,33 @@
+.content {
+  background-color: rgb(30, 30, 30);
+  border-radius: 15px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.profile p-avatar {
+  margin-right: 20px;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-info h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.profile-info p {
+  margin: 5px 0;
+  color: #666;
+}
+
+.profile-info .details {
+  color: #666;
+}

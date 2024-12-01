@@ -1,21 +1,20 @@
-<div>
-  <p-chip>
+<div class="content">
+  <div class="profile">
     <p-avatar image="../../../assets/images/MyPic.png" size="xlarge" />
-    <span class="ml-2font-medium">
-      {{ privateData.name }} <br />
-      {{ privateData.alias }}
-    </span>
-  </p-chip>
-
-  <p-tabMenu [model]="items">
-    <ng-template pTemplate="item" let-item>
-        <a pRipple class="flex align-items-center gap-2 p-menuitem-link" href="{{item.url}}" target="_blank">
-            <img 
-                [class]="item.icon"
-                [alt]="" 
-                [src]="item.image" 
-                style="width: 2rem" />
-        </a>
-    </ng-template>
-</p-tabMenu>
+    <div class="profile-info">
+      <h1> {{ privateData.name }} <i> {{ privateData.alias }}</i></h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, esse vel? Iure quis amet, necessitatibus
+        molestiae
+        id ipsam dolorum facere repudiandae. Tempore sunt labore sapiente temporibus accusantium, quidem officia eum.
+      </p>
+      <p class="details">Software Developer | Panama </p>
+      <p-tabMenu [model]="items">
+        <ng-template pTemplate="item" let-item>
+          <a pRipple class="flex align-items-center gap-2 p-menuitem-link" href="{{item.url}}" target="_blank">
+            <img [class]="item.icon" [alt]="" [src]="item.image" style="width: 2rem" />
+          </a>
+        </ng-template>
+      </p-tabMenu>
+    </div>
+  </div>
 </div>
