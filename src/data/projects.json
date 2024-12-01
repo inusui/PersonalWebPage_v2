@@ -3,7 +3,7 @@
     "name": "Albion Online",
     "url": "https://aoinusui.web.app/",
     "img": "../assets/images/projects/AlbionOnline.png",
-    "description": "Proyecto hecho para el juego albion online enfocado a nuevos jugadores",
+    "description": "Proyecto hecho para el juego albion online enfocado a nuevos jugadores. Contiene Guías para Dungeons Avalonianas y ZvZ ",
     "icon": "pi pi-external-link",
     "repository": "https://github.com/inusui/AOInusui",
     "haveRepository": true,
@@ -22,14 +22,15 @@
     "description": "Mi portafolio hecho con Angular",
     "icon": "pi pi-spin pi-cog",
     "technologies": [
-      {"name": "Angular", "icon": "mdi mdi-angular"}
+      {"name": "Angular", "icon": "mdi mdi-angular"},
+      {"name": "Prime NG", "icon": "pi pi-prime"}
     ]
   },
   {
     "name": "Venuzka vet",
     "url": "",
     "img": "../assets/images/projects/venuzka_vet.png",
-    "description": "Clinica veterinaria con base de datos en CouchDB y NodeJS. Admite Replicas a distintos servidores",
+    "description": "Sistema de gestión para una clínica veterinaria con NodeJS y CouchDB. El sistema admite replicación de datos a múltiples servidores y permite la gestión de pacientes, tarjetas de vacunación y programación de citas, mejorando la eficiencia operativa.",
     "icon": "",
     "technologies": [
       {"name": "NodeJS", "icon": "mdi mdi-nodejs"},

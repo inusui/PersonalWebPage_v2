@@ -5,6 +5,7 @@ import { CarouselModule } from 'primeng/carousel';
 import { ChipModule } from 'primeng/chip';
 import { FieldsetModule } from 'primeng/fieldset';
 import { MenuModule } from 'primeng/menu';
+import { AvatarModule } from 'primeng/avatar';
 
 @NgModule({
   imports: [
@@ -14,6 +15,7 @@ import { MenuModule } from 'primeng/menu';
     CardModule,
     CarouselModule,
     ChipModule,
+    AvatarModule
   ],
   exports: [
     MenuModule,
@@ -22,6 +24,7 @@ import { MenuModule } from 'primeng/menu';
     CardModule,
     CarouselModule,
     ChipModule,
+    AvatarModule
   ],
 })
 export class PrimeNgModule {}
