@@ -23,6 +23,5 @@ export class BannerComponent implements OnInit {
       { url: 'https://twitter.com/InuSui', icon: 'pi pi-twitter' },
       { url: 'https://linkedin.com/in/inusui', icon: 'pi pi-linkedin' },
     ];
-    //{ url: 'https://g.dev/inusui', icon: '' },
   }
 }
