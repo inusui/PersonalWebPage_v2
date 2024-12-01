@@ -14,7 +14,11 @@ export class DataService {
     return this.http.get('../../data/projects.json');
   }
 
-  getResponsiveOptions(){
-    return this.http.get('../../data/responsiveOptions.json');
+  getSkills(): Observable<any> {
+    return this.http.get('../../data/skills/skills.json');
+  }
+
+  getCustomSkils(): Observable<any> {
+    return this.http.get('../../data/skills/custom.json');
   }
 }

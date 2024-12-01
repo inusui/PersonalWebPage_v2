@@ -1,30 +1,41 @@
 import { Component, OnInit } from '@angular/core';
+import { TagModule } from 'primeng/tag';
 import { PrimeNgModule } from './common/PrimeNgModule';
 import { BannerComponent } from './components/banner/banner.component';
+import { ExperienceComponent } from './components/experience/experience.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { DataService } from './services/data-service.service';
-import { ExperienceComponent } from "./components/experience/experience.component";
+import { ISkills } from './common/interfaces/ISkills';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [BannerComponent, PrimeNgModule, ProjectsComponent, ExperienceComponent],
+  imports: [
+    BannerComponent,
+    PrimeNgModule,
+    ProjectsComponent,
+    ExperienceComponent,
+    TagModule,
+  ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
 })
 export class AppComponent implements OnInit {
-  products: any;
-  responsiveOptions: any;
+  icons: ISkills[] = [];
+  customIcons:ISkills[] = [];
 
   constructor(private dataService: DataService) {}
 
   ngOnInit(): void {
-    this.dataService.getProjects().subscribe((data) => {
-      this.products = data;
+    this.dataService.getSkills().subscribe((data) => {
+      this.icons = data;
     });
+    this.dataService.getCustomSkils().subscribe((data) => {
+      this.customIcons = data;
+    })
   }
 
-  navigate(){
-    window.open('https://wifflegif.com/gifs/706312-pixel-art-nintendo-gif', '_blank');
+  navigate(url: string) {
+    window.open(url, '_blank');
   }
 }
