@@ -45,3 +45,17 @@
   filter: invert(99%) sepia(9%) saturate(741%) hue-rotate(159deg)
     brightness(113%) contrast(97%);
 }
+
+.icon-ejs {
+  height: 1rem;
+  background-image: url("../assets/images/icons/ejs.svg");
+  filter: invert(99%) sepia(9%) saturate(741%) hue-rotate(159deg)
+    brightness(113%) contrast(97%);
+}
+
+.icon-jasmine {
+  height: 1rem;
+  background-image: url("../assets/images/icons/jasmine.svg");
+  filter: invert(99%) sepia(9%) saturate(741%) hue-rotate(159deg)
+    brightness(113%) contrast(97%);
+}
