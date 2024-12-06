@@ -5,6 +5,16 @@
     "url": "https://angular.dev/"
   },
   {
+    "icon": "mdi mdi-language-python",
+    "name": "Python",
+    "url": "https://www.python.org/"
+  },
+  {
+    "icon": "mdi mdi-android",
+    "name": "Android",
+    "url": "https://developer.android.com/"
+  },
+  {
     "icon": "mdi mdi-language-java",
     "name": "Java",
     "url": "https://dev.java/"
@@ -28,11 +38,6 @@
     "icon": "mdi mdi-firebase",
     "name": "Firebase",
     "url": "https://firebase.google.com/"
-  },
-  {
-    "icon": "mdi mdi-language-python",
-    "name": "Python",
-    "url": "https://www.python.org/"
   },
   {
     "icon": "mdi mdi-database-search",
