@@ -59,3 +59,15 @@
   filter: invert(99%) sepia(9%) saturate(741%) hue-rotate(159deg)
     brightness(113%) contrast(97%);
 }
+
+.scale-content {
+  transform: scale(0.7);
+  transform-origin: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: -11% 0;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}

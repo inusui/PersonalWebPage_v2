@@ -6,6 +6,7 @@ import { ExperienceComponent } from './components/experience/experience.componen
 import { ProjectsComponent } from './components/projects/projects.component';
 import { DataService } from './services/data-service.service';
 import { ISkills } from './common/interfaces/ISkills';
+import { CertificatesComponent } from "./components/certificates/certificates.component";
 
 @Component({
   selector: 'app-root',
@@ -16,7 +17,8 @@ import { ISkills } from './common/interfaces/ISkills';
     ProjectsComponent,
     ExperienceComponent,
     TagModule,
-  ],
+    CertificatesComponent
+],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
 })
