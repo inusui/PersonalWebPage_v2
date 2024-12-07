@@ -1,5 +1,18 @@
 # Portfolio
 
+## 🎈Instalacion
+
+> npm install
+> ng serve
+
+## 🚀Despliegue a Firebase
+
+> npm install -g firebase-tools
+> firebase login
+> firebase init
+> ng build --configuration=production
+> firebase deploy
+
 ## Estoy usando
 
 - Primeng 17.18.1 [Intalación](https://primeng.org/installation)
