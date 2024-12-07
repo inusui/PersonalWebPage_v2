@@ -20,9 +20,9 @@ export class BannerComponent implements OnInit {
    
     this.items = [
       { url: 'https://github.com/inusui', icon: 'pi pi-github' },
-      { url: 'https://g.dev/inusui', icon: 'pi pi-google', image: 'assets/google-dev.svg' },
       { url: 'https://twitter.com/InuSui', icon: 'pi pi-twitter' },
       { url: 'https://linkedin.com/in/inusui', icon: 'pi pi-linkedin' },
+      { url: 'https://inusui.medium.com/', icon: 'icon icon-medium' },
     ];
   }
 }
