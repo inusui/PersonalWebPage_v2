@@ -1,0 +1,67 @@
+[
+  {
+    "icon": "mdi mdi-angular",
+    "name": "Angular",
+    "url": "https://angular.dev/"
+  },
+  {
+    "icon": "mdi mdi-language-python",
+    "name": "Python",
+    "url": "https://www.python.org/"
+  },
+  {
+    "icon": "mdi mdi-android",
+    "name": "Android",
+    "url": "https://developer.android.com/"
+  },
+  {
+    "icon": "mdi mdi-language-java",
+    "name": "Java",
+    "url": "https://dev.java/"
+  },
+  {
+    "icon": "mdi mdi-nodejs",
+    "name": "NodeJS",
+    "url": "https://nodejs.org/en/"
+  },
+  {
+    "icon": "mdi mdi-language-javascript",
+    "name": "Javascript",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+  },
+  {
+    "icon": "mdi mdi-aws",
+    "name": "Aws",
+    "url": "https://aws.amazon.com/"
+  },
+  {
+    "icon": "mdi mdi-firebase",
+    "name": "Firebase",
+    "url": "https://firebase.google.com/"
+  },
+  {
+    "icon": "mdi mdi-database-search",
+    "name": "SQL",
+    "url": "https://www.w3schools.com/sql/"
+  },
+  {
+    "icon": "mdi mdi-jira",
+    "name": "Jira",
+    "url": "https://www.atlassian.com/software/jira"
+  },
+  {
+    "icon": "mdi mdi-git",
+    "name": "Git",
+    "url": "https://git-scm.com/"
+  },
+  {
+    "icon": "mdi mdi-github",
+    "name": "Github",
+    "url": "https://github.com/"
+  },
+  {
+    "icon": "mdi mdi-bash",
+    "name": "Bash",
+    "url": "https://www.gnu.org/software/bash/"
+  }
+]

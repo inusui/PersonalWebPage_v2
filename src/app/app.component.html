@@ -1,0 +1,43 @@
+<div class="container">
+  <app-banner></app-banner>
+
+  <h2 class="my-4">💼 Experiencia Laboral</h2>
+  <div class="mt-1">
+    <div class="row">
+      <app-experience></app-experience>
+    </div>
+  </div>
+
+  <h2 class="my-4"> <img src="../../../assets/images/gif/link.gif" height="40"
+      (click)="navigate('https://wifflegif.com/gifs/706312-pixel-art-nintendo-gif')" style="cursor: pointer;" />
+    Proyectos Personales</h2>
+  <div class="mt-1">
+    <div class="row">
+      <app-projects></app-projects>
+    </div>
+  </div>
+
+  <h2 class="my-4"> <img src="../../../assets/images/gif/dino_coffe.gif" height="50" style="border-radius: 50%;" />
+    Habilidades</h2>
+  <div class="d-flex gap-2 flex-wrap">
+    <p-chip *ngFor="let item of icons" label="{{item.name}}" icon="{{item.icon}}" pTooltip="{{item.url}}"
+      tooltipPosition="top" (click)="navigate(item.url)" [style]="{'cursor': 'pointer'}" />
+    <div class="chip" *ngFor="let custom of customIcons" (click)="navigate(custom.url)" pTooltip="{{custom.url}}"
+      tooltipPosition="top">
+      <span class="{{custom.icon}}"></span><span>{{custom.name}}</span>
+    </div>
+  </div>
+
+
+  <h2 class="my-4">
+    <i class="mdi mdi-certificate" style="font-size: 2rem"></i>
+    Certificados
+  </h2>
+
+  <div class="d-flex justify-content-center align-items-center">
+    <div class="scale-content">
+      <app-certificates></app-certificates>
+    </div>
+  </div>
+
+</div>

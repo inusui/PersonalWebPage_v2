@@ -1,0 +1,32 @@
+[
+    {
+      "icon": "icon icon-spring",
+      "name": "Spring",
+      "url": "https://spring.io/"
+    },
+    {
+      "icon": "icon icon-express",
+      "name": "ExpressJs",
+      "url": "https://expressjs.com/"
+    },
+    {
+      "icon": "icon icon-mongodb",
+      "name": "Mongodb",
+      "url": "https://www.mongodb.com/"
+    },
+    {
+      "icon": "icon icon-couchbd",
+      "name": "CouchDB",
+      "url": "https://couchdb.apache.org/"
+    },
+    {
+      "icon": "icon icon-ejs",
+      "name": "EJS",
+      "url": "https://ejs.co/"
+    },
+    {
+      "icon": "icon icon-jasmine",
+      "name": "Jasmine",
+      "url": "https://jasmine.github.io/"
+    }
+  ]

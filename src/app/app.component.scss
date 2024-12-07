@@ -1,0 +1,73 @@
+@import "bootstrap/scss/bootstrap";
+
+.chip {
+  cursor: pointer;
+  padding: 0.6rem 1.3rem;
+  border-radius: 14px;
+  background-color: #2a2a2a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.icon-spring {
+  height: 1rem;
+  background-image: url("../assets/images/icons/spring.svg");
+  filter: invert(99%) sepia(9%) saturate(741%) hue-rotate(159deg)
+    brightness(113%) contrast(97%);
+}
+
+.icon-express {
+  height: 1rem;
+  background-image: url("../assets/images/icons/expressjs.svg");
+  filter: invert(99%) sepia(9%) saturate(741%) hue-rotate(159deg)
+    brightness(113%) contrast(97%);
+}
+
+.icon-mongodb {
+  height: 1rem;
+  background-image: url("../assets/images/icons/mongodb.svg");
+  filter: invert(99%) sepia(9%) saturate(741%) hue-rotate(159deg)
+    brightness(113%) contrast(97%);
+}
+
+.icon-couchbd {
+  height: 1rem;
+  background-image: url("../assets/images/icons/couchbd.svg");
+  filter: invert(99%) sepia(9%) saturate(741%) hue-rotate(159deg)
+    brightness(113%) contrast(97%);
+}
+
+.icon-ejs {
+  height: 1rem;
+  background-image: url("../assets/images/icons/ejs.svg");
+  filter: invert(99%) sepia(9%) saturate(741%) hue-rotate(159deg)
+    brightness(113%) contrast(97%);
+}
+
+.icon-jasmine {
+  height: 1rem;
+  background-image: url("../assets/images/icons/jasmine.svg");
+  filter: invert(99%) sepia(9%) saturate(741%) hue-rotate(159deg)
+    brightness(113%) contrast(97%);
+}
+
+.scale-content {
+  transform: scale(0.7);
+  transform-origin: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: -11% 0;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}

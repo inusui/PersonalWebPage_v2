@@ -1,0 +1,90 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.card {
+  flex: 1 1 calc(20% - 16px);
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 0.8em;
+}
+
+@media (max-width: 1400px) {
+  .card {
+    flex: 1 1 calc(25% - 16px); /* Cuatro tarjetas por fila en pantallas grandes */
+  }
+}
+
+@media (max-width: 1200px) {
+  .card {
+    flex: 1 1 calc(33.333% - 16px);
+    font-size: 0.85em;
+  }
+}
+
+@media (max-width: 1100px) {
+  .card {
+    flex: 1 1 calc(50% - 16px);
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 992px) {
+  .card {
+    flex: 1 1 100%;
+    font-size: 1em;
+  }
+}
+
+h3:hover {
+  color: #007bff;
+}
+
+.icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 0.2rem;
+  text-align: left;
+}
+
+
+.icon {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: -5px;
+}
+
+.icon-couchbd {
+  height: 1rem;
+  background-image: url("../../../assets/images/icons/couchbd.svg");
+  filter: invert(99%) sepia(9%) saturate(741%) hue-rotate(159deg)
+    brightness(113%) contrast(97%);
+}
+
+.icon-ejs {
+  height: 1rem;
+  background-image: url("../../../assets/images/icons/ejs.svg");
+  filter: invert(99%) sepia(9%) saturate(741%) hue-rotate(159deg)
+    brightness(113%) contrast(97%);
+}
+
+.icon-express {
+  height: 1rem;
+  background-image: url("../../../assets/images/icons/expressjs.svg");
+  filter: invert(99%) sepia(9%) saturate(741%) hue-rotate(159deg)
+    brightness(113%) contrast(97%);
+}

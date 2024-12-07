@@ -1,0 +1,17 @@
+[
+  {
+    "itemImageSrc": "../assets/images/certificates/angular.jpg",
+    "alt": "Angular: De cero a experto por Fernando Herrera",
+    "title": "Angular: De cero a experto por Fernando Herrera"
+  },
+  {
+    "itemImageSrc": "../assets/images/certificates/DevNet.jpg",
+    "alt": "DevNet Associate ",
+    "title": "DevNet Associate"
+  },
+  {
+    "itemImageSrc": "../assets/images/certificates/Introduction_to_Cybersecurity.jpg",
+    "alt": "Introduccion a la ciberseguridad",
+    "title": "Introduccion a la ciberseguridad"
+  }
+]
