@@ -4,20 +4,17 @@
       <p-panel [toggleable]="true" [collapsed]="true">
 
         <ng-template pTemplate="header">
-          <p-avatar
-            image="{{item.img}}"
-            size="xlarge"
-            shape="circle"
-          ></p-avatar>
-          <h3 (click)="goTo(item.url)" [style]="{'cursor': 'pointer', 'margin-left': '0.5rem', 'margin-right': '0.5rem'}">{{ item.name }}</h3>
-
+          <p-avatar image="{{item.img}}" size="xlarge" shape="circle"></p-avatar>
+          <h3 (click)="goTo(item.url)"  pTooltip="{{item.url}}"
+            [style]="{'cursor': 'pointer', 'margin-left': '0.5rem', 'margin-right': '0.5rem'}">{{ item.name }}</h3>
           <div class="icons" *ngFor="let tech of item.technologies">
-            <span class="{{tech.icon}}" pTooltip="{{tech.name}}" tooltipPosition="top" style="text-align: right;"></span>
+            <span class="{{tech.icon}}" pTooltip="{{tech.name}}" tooltipPosition="top"
+              style="text-align: right;"></span>
           </div>
         </ng-template>
 
         {{ item.description }}
-        <br/>
+        <br />
 
         <p-chip *ngIf="item.haveRepository" (click)="goTo(item.repository)" label="Ver repositorio"
           icon="mdi mdi-github" [style]="{

@@ -4,15 +4,14 @@
     "url": "https://aoinusui.web.app/",
     "img": "../assets/images/projects/AlbionOnline.png",
     "description": "Proyecto hecho para el juego albion online enfocado a nuevos jugadores. Contiene Guías para Dungeons Avalonianas y ZvZ ",
-    "icon": "pi pi-external-link",
     "repository": "https://github.com/inusui/AOInusui",
     "haveRepository": true,
     "technologies": [
-      {"name": "Html5", "icon": "mdi mdi-language-html5"},
-      {"name": "Css3", "icon": "mdi mdi-language-css3"},
-      {"name": "Javascript", "icon": "mdi mdi-language-javascript"},
-      {"name": "Firebase", "icon": "mdi mdi-firebase"},
-      {"name": "Bootstrap", "icon": "mdi mdi-bootstrap"}
+      { "name": "Html5", "icon": "mdi mdi-language-html5" },
+      { "name": "Css3", "icon": "mdi mdi-language-css3" },
+      { "name": "Javascript", "icon": "mdi mdi-language-javascript" },
+      { "name": "Firebase", "icon": "mdi mdi-firebase" },
+      { "name": "Bootstrap", "icon": "mdi mdi-bootstrap" }
     ]
   },
   {
@@ -20,25 +19,32 @@
     "url": "https://inusui.web.app/",
     "img": "../assets/images/projects/inusui.jpeg",
     "description": "Mi portafolio hecho con Angular",
-    "icon": "pi pi-spin pi-cog",
     "technologies": [
-      {"name": "Angular", "icon": "mdi mdi-angular"},
-      {"name": "Prime NG", "icon": "pi pi-prime"}
+      { "name": "Angular", "icon": "mdi mdi-angular" },
+      { "name": "Prime NG", "icon": "pi pi-prime" }
     ]
   },
   {
     "name": "Venuzka vet",
-    "url": "",
+    "url": "https://github.com/inusui/venuzka_vet",
     "img": "../assets/images/projects/venuzka_vet.png",
     "description": "Sistema de gestión para una clínica veterinaria con NodeJS y CouchDB. El sistema admite replicación de datos a múltiples servidores y permite la gestión de pacientes, tarjetas de vacunación y programación de citas, mejorando la eficiencia operativa.",
-    "icon": "",
     "technologies": [
-      {"name": "NodeJS", "icon": "mdi mdi-nodejs"},
-      {"name": "CouchDB", "icon": "icon icon-couchbd"},
-      {"name": "ExpressJs", "icon": "icon icon-express"},
-      {"name": "EJS", "icon": "icon icon-ejs"}
+      { "name": "NodeJS", "icon": "mdi mdi-nodejs" },
+      { "name": "CouchDB", "icon": "icon icon-couchbd" },
+      { "name": "ExpressJs", "icon": "icon icon-express" },
+      { "name": "EJS", "icon": "icon icon-ejs" }
     ],
     "haveRepository": true,
     "repository": "https://github.com/inusui/venuzka_vet"
+  },
+  {
+    "name": "VenusDogCam",
+    "url": "https://github.com/inusui/VenusDogCam/releases/tag/VenusDogCamV1.01",
+    "img": "../assets/images/projects/VenusDogCam.png",
+    "description": "App hecha en Kotlin para tomarle fotos a tus mascotas. integra un botón que hace un sonido de juguete de perro",
+    "haveRepository": true,
+    "repository": "https://github.com/inusui/VenusDogCam",
+    "technologies": [{ "name": "Kotlin", "icon": "mdi mdi-language-kotlin" }]
   }
 ]
