@@ -1,5 +1,5 @@
 {
-  "name": "webpage2",
+  "name": "inusui",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:webpage2": "node dist/webpage2/server/server.mjs"
+    "serve:ssr:inusui": "node dist/inusui/server/server.mjs"
   },
   "private": true,
   "dependencies": {
