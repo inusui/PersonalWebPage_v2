@@ -57,34 +57,3 @@ h3:hover {
   margin: 0.2rem;
   text-align: left;
 }
-
-
-.icon {
-  width: 24px;
-  height: 24px;
-  display: inline-block;
-  background-size: contain;
-  background-repeat: no-repeat;
-  margin-right: -5px;
-}
-
-.icon-couchbd {
-  height: 1rem;
-  background-image: url("../../../assets/images/icons/couchbd.svg");
-  filter: invert(99%) sepia(9%) saturate(741%) hue-rotate(159deg)
-    brightness(113%) contrast(97%);
-}
-
-.icon-ejs {
-  height: 1rem;
-  background-image: url("../../../assets/images/icons/ejs.svg");
-  filter: invert(99%) sepia(9%) saturate(741%) hue-rotate(159deg)
-    brightness(113%) contrast(97%);
-}
-
-.icon-express {
-  height: 1rem;
-  background-image: url("../../../assets/images/icons/expressjs.svg");
-  filter: invert(99%) sepia(9%) saturate(741%) hue-rotate(159deg)
-    brightness(113%) contrast(97%);
-}
