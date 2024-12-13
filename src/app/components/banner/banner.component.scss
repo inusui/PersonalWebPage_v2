@@ -1,24 +1,7 @@
 .MyPic {
-  max-width: 9%;
+  max-width: 15%;
   height: auto;
   margin: 1rem;
-}
-
-.icon {
-  width: 24px;
-  height: 24px;
-  display: inline-block;
-  background-size: contain;
-  background-repeat: no-repeat;
-  margin-right: -5px;
-}
-
-.icon-medium {
-  height: 1rem;
-  opacity: 0.6;
-  background-image: url("../../../assets/images/icons/medium.svg");
-  filter: invert(99%) sepia(9%) saturate(741%) hue-rotate(159deg)
-    brightness(113%) contrast(97%);
 }
 
 .content {
@@ -30,10 +13,6 @@
   display: flex;
   align-items: center;
   padding: 20px;
-}
-
-.profile p-avatar {
-  margin-right: 20px;
 }
 
 .profile-info {
