@@ -1,6 +1,5 @@
 <div class="content">
   <div class="profile">
-    <img src="../../../assets/images/MyPic.png" alt="inusui" class="MyPic">
     <div class="profile-info">
       <h1> {{ privateData.name }} <i> {{ privateData.alias }}</i></h1>
       <p>Soy un programador que disfruta creando proyectos. Trabajo con tecnologías
@@ -11,11 +10,13 @@
       <p class="details">Software Developer | Panama </p>
       <p-tabMenu [model]="items" [style]="{'display':'flex', 'justify-content': 'center'}">
         <ng-template pTemplate="item" let-item>
-          <a pRipple class="flex align-items-center gap-2 p-menuitem-link" href="{{item.url}}" target="_blank" pTooltip="{{item.url}}">
+          <a pRipple class="flex align-items-center gap-2 p-menuitem-link" href="{{item.url}}" target="_blank"
+            pTooltip="{{item.url}}">
             <img [class]="item.icon" [alt]="" [src]="item.image" style="width: 2rem" />
           </a>
         </ng-template>
       </p-tabMenu>
     </div>
+    <img src="../../../assets/images/MyPic.png" class="MyPic">
   </div>
 </div>
