@@ -1,4 +1,5 @@
 .line {
+  margin: 1rem auto;
   display: flex;
   flex-direction: row;
 }
@@ -44,6 +45,7 @@
 .profile-info {
   display: flex;
   flex-direction: column;
+  margin: 1rem;
 }
 
 .profile-info h1 {
