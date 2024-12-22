@@ -2,11 +2,14 @@
   <div class="profile">
     <div class="profile-info">
       <h1> {{ privateData.name }} <i> {{ privateData.alias }}</i></h1>
-      <p>Soy un programador que disfruta creando proyectos. Trabajo con tecnologías
-        como Angular, Java, Python y AWS para integrar servicios en la nube, siempre buscando aprender y mejorar.
-        Además, soy organizado y meticuloso, lo que me permite ofrecer soluciones eficaces y mantener la eficiencia en
-        mis proyectos.
-      </p>
+      <div class="line">
+        <p>Soy un programador que disfruta creando proyectos. Trabajo con tecnologías
+          como Angular, Java, Python y AWS para integrar servicios en la nube, siempre buscando aprender y mejorar.
+          Además, soy organizado y meticuloso, lo que me permite ofrecer soluciones eficaces y mantener la eficiencia en
+          mis proyectos.
+        </p>
+        <img src="../../../assets/images/MyPic.png" class="MyPic">
+      </div>
       <p class="details">Software Developer | Panama </p>
       <p-tabMenu [model]="items" [style]="{'display':'flex', 'justify-content': 'center'}">
         <ng-template pTemplate="item" let-item>
@@ -17,6 +20,5 @@
         </ng-template>
       </p-tabMenu>
     </div>
-    <img src="../../../assets/images/MyPic.png" class="MyPic">
   </div>
 </div>
